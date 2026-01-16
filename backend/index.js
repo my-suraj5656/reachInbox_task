@@ -13,8 +13,8 @@ const app = express();
 app.use(
   cors({
     origin: [
+      "https://reach-inbox-task-xi.vercel.app",
       "http://localhost:5173",           
-      "https://reach-inbox-task-xi.vercel.app/", 
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
