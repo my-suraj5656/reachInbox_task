@@ -1,7 +1,6 @@
 import dotenv from "dotenv";
 dotenv.config();
 import express from "express";
-import "./worker/worker.js";
 import conn from "./conn/conn.js";
 import cors from "cors";
 import scheduleRoutes from "./route/scheduleRoute.js";
