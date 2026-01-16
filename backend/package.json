@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "worker": "node worker/worker.js"
   },
   "keywords": [],
   "author": "",
