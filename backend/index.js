@@ -14,7 +14,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",           
-      "https://reachinbox-task.vercel.app", 
+      "https://reach-inbox-task-xi.vercel.app/", 
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
